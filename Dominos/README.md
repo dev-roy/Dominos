@@ -10,7 +10,7 @@ It is a way of writing software that minimizes the chances of bugs and unexpecte
 
 ### Scenario
 
-Dominos has hired you to build the iOS app for its business. Like the wise developer that you are you encourage Dominos to start small and iterate quickly. Therefore, you agree to start with a digital menu for the customers.
+Dominos has hired you to build the iOS app for its business. Like the wise developer that you are you encourage Dominos to start small and iterate quickly. Therefore, you decide to start with a digital menu for the customers.
 
 
 
