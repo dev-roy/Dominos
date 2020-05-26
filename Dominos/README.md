@@ -1,5 +1,9 @@
 #  Test Driven Development
 
+### Definition 
+
+Test-driven development is a software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the code is improved so that the tests pass.
+
 ### TDD Cycle
 
 ![alt text](https://koenig-media.raywenderlich.com/uploads/2018/02/tdd_red_green_refactor_cycle.png)
