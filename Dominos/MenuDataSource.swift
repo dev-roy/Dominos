@@ -10,4 +10,8 @@ import Foundation
 
 struct MenuDataSource {
     let numberOfSections = 1
+    
+    func numberOfRows(inSection section: Int) -> Int {
+        return 3
+    }
 }

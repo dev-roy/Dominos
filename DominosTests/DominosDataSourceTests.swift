@@ -15,5 +15,10 @@ class DominosDataSourceTests: XCTestCase {
         let dataSource = MenuDataSource()
         XCTAssertEqual(dataSource.numberOfSections, 1)
     }
+    
+    func testRowsInSection() {
+        let dataSource = MenuDataSource()
+        XCTAssertEqual(dataSource.numberOfRows(inSection: 0), 3)
+    }
 
 }
