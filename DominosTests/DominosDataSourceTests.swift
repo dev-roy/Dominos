@@ -20,5 +20,11 @@ class DominosDataSourceTests: XCTestCase {
         let dataSource = MenuDataSource(pizzas: [Pizza(), Pizza(), Pizza()])
         XCTAssertEqual(dataSource.numberOfRows(inSection: 0), 3)
     }
+    
+    func testRowsInOutOfBoundsSectionIsZero() {
+        let dataSource = MenuDataSource(pizzas: [Pizza(), Pizza(), Pizza()])
+        XCTAssertEqual(dataSource.numberOfRows(inSection: 1), 0)
+        XCTAssertEqual(dataSource.numberOfRows(inSection: -1), 0)
+    }
 
 }
