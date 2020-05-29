@@ -12,12 +12,12 @@ import XCTest
 class DominosDataSourceTests: XCTestCase {
     
     func testHasOneSection() {
-        let dataSource = MenuDataSource()
+        let dataSource = MenuDataSource(pizzas: [Pizza]())
         XCTAssertEqual(dataSource.numberOfSections, 1)
     }
     
     func testRowsInSection() {
-        let dataSource = MenuDataSource()
+        let dataSource = MenuDataSource(pizzas: [Pizza(), Pizza(), Pizza()])
         XCTAssertEqual(dataSource.numberOfRows(inSection: 0), 3)
     }
 
