@@ -17,7 +17,9 @@ struct MenuDataSource {
         return pizzas.count
     }
     
-    func item(forRow row: Int, inSection section: Int) -> MenuItem {
+    func item(forRow row: Int, inSection section: Int) -> MenuItem? {
+        guard section == 0 else { return .none }
+        guard row >= 0, pizzas.count > row else { return .none }
         return MenuItem(pizza: pizzas[row])
     }
 }
