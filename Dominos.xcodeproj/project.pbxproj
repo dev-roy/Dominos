@@ -17,6 +17,7 @@
 		337838C324817B5200DDFDBC /* DominosDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337838C224817B5200DDFDBC /* DominosDataSourceTests.swift */; };
 		337838C524817BC300DDFDBC /* MenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337838C424817BC300DDFDBC /* MenuDataSource.swift */; };
 		337838C724817CF600DDFDBC /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337838C624817CF600DDFDBC /* Pizza.swift */; };
+		337838C92481819300DDFDBC /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337838C82481819300DDFDBC /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		337838C224817B5200DDFDBC /* DominosDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominosDataSourceTests.swift; sourceTree = "<group>"; };
 		337838C424817BC300DDFDBC /* MenuDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataSource.swift; sourceTree = "<group>"; };
 		337838C624817CF600DDFDBC /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		337838C82481819300DDFDBC /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				33135BAC247DD05A008DB820 /* Supporting Files */,
 				337838C424817BC300DDFDBC /* MenuDataSource.swift */,
 				337838C624817CF600DDFDBC /* Pizza.swift */,
+				337838C82481819300DDFDBC /* MenuItem.swift */,
 			);
 			path = Dominos;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				33135B86247DBC1C008DB820 /* ViewController.swift in Sources */,
 				33135B82247DBC1C008DB820 /* AppDelegate.swift in Sources */,
 				33135B84247DBC1C008DB820 /* SceneDelegate.swift in Sources */,
+				337838C92481819300DDFDBC /* MenuItem.swift in Sources */,
 				337838C724817CF600DDFDBC /* Pizza.swift in Sources */,
 				337838C524817BC300DDFDBC /* MenuDataSource.swift in Sources */,
 			);

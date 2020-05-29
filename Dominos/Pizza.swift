@@ -9,5 +9,11 @@
 import Foundation
 
 struct Pizza {
-    
+    let name: String
+}
+
+extension Pizza {
+    static func fixture(name: String = "Margherita") -> Pizza {
+        return Pizza(name: name)
+    }
 }
