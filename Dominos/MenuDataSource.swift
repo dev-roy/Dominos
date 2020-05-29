@@ -11,7 +11,6 @@ import Foundation
 struct MenuDataSource {
     let numberOfSections = 1
     let pizzas: [Pizza]
-    let item = MenuItem(title: "Margherita")
     
     func numberOfRows(inSection section: Int) -> Int {
         guard section == 0 else { return 0 }
@@ -19,6 +18,6 @@ struct MenuDataSource {
     }
     
     func item(forRow row: Int, inSection section: Int) -> MenuItem {
-        return item
+        return MenuItem(pizza: pizzas[row])
     }
 }

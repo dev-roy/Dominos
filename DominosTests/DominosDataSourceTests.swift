@@ -30,6 +30,7 @@ class DominosDataSourceTests: XCTestCase {
     func testItemForRowInSection() {
         let dataSource = MenuDataSource(pizzas: [.fixture(name: "Margherita"), .fixture(name: "Capricciosa")])
         XCTAssertEqual(dataSource.item(forRow: 0, inSection: 0).title, "Margherita")
+        XCTAssertEqual(dataSource.item(forRow: 1, inSection: 0).title, "Capricciosa")
     }
 
 }
