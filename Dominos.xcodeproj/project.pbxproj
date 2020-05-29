@@ -14,6 +14,8 @@
 		33135B8B247DBC20008DB820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33135B8A247DBC20008DB820 /* Assets.xcassets */; };
 		33135B8E247DBC20008DB820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33135B8C247DBC20008DB820 /* LaunchScreen.storyboard */; };
 		33135B99247DBC20008DB820 /* DominosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33135B98247DBC20008DB820 /* DominosTests.swift */; };
+		337838C324817B5200DDFDBC /* DominosDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337838C224817B5200DDFDBC /* DominosDataSourceTests.swift */; };
+		337838C524817BC300DDFDBC /* MenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337838C424817BC300DDFDBC /* MenuDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		33135B98247DBC20008DB820 /* DominosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominosTests.swift; sourceTree = "<group>"; };
 		33135B9A247DBC20008DB820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33135BA9247DC97B008DB820 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		337838C224817B5200DDFDBC /* DominosDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominosDataSourceTests.swift; sourceTree = "<group>"; };
+		337838C424817BC300DDFDBC /* MenuDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,10 @@
 		33135B80247DBC1C008DB820 /* Dominos */ = {
 			isa = PBXGroup;
 			children = (
-				33135BAC247DD05A008DB820 /* Supporting Files */,
 				33135B8F247DBC20008DB820 /* Info.plist */,
 				33135BA9247DC97B008DB820 /* README.md */,
+				33135BAC247DD05A008DB820 /* Supporting Files */,
+				337838C424817BC300DDFDBC /* MenuDataSource.swift */,
 			);
 			path = Dominos;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			children = (
 				33135B98247DBC20008DB820 /* DominosTests.swift */,
 				33135B9A247DBC20008DB820 /* Info.plist */,
+				337838C224817B5200DDFDBC /* DominosDataSourceTests.swift */,
 			);
 			path = DominosTests;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 				33135B86247DBC1C008DB820 /* ViewController.swift in Sources */,
 				33135B82247DBC1C008DB820 /* AppDelegate.swift in Sources */,
 				33135B84247DBC1C008DB820 /* SceneDelegate.swift in Sources */,
+				337838C524817BC300DDFDBC /* MenuDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337838C324817B5200DDFDBC /* DominosDataSourceTests.swift in Sources */,
 				33135B99247DBC20008DB820 /* DominosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
